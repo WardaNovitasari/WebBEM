@@ -13,44 +13,6 @@
                 <li><a href="#mySignin" data-toggle="modal"><i class="icon-user"></i>Sign in</a></li>
               </ul>
             </div>
-            <!-- Signup Modal -->
-            <!-- <div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 id="mySignupModalLabel">Create an <strong>account</strong></h4>
-              </div>
-              <div class="modal-body">
-                <form class="form-horizontal">
-                  <div class="control-group">
-                    <label class="control-label" for="inputEmail">Email</label>
-                    <div class="controls">
-                      <input type="text" id="inputEmail" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <label class="control-label" for="inputSignupPassword">Password</label>
-                    <div class="controls">
-                      <input type="password" id="inputSignupPassword" placeholder="Password">
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <label class="control-label" for="inputSignupPassword2">Confirm Password</label>
-                    <div class="controls">
-                      <input type="password" id="inputSignupPassword2" placeholder="Password">
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="controls">
-                      <button type="submit" class="btn">Sign up</button>
-                    </div>
-                    <p class="aligncenter margintop20">
-                      Already have an account? <a href="#mySignin" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Sign in</a>
-                    </p>
-                  </div>
-                </form>
-              </div>
-            </div> -->
-            <!-- end signup modal -->
             <!-- Sign in Modal -->
             <div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
               <div class="modal-header">
@@ -114,8 +76,8 @@
         <div class="row">
           <div class="span4">
             <div class="logo">
-              <a href="index.html"><img src="<?php echo base_url() ?>master/img/khk1.png" alt="" class="logo" /></a>
-              <h1>Bem KM-POLIJE 2018 Kabinet Harmoni Kolaborasi</h1>
+              <a href="<?php echo base_url() ?>"><img src="<?php echo base_url() ?>master/img/bem.png" alt="" class="logo" /></a>
+              <!-- <h1>Bem KM-POLIJE 2018 Kabinet Harmoni Kolaborasi</h1> -->
             </div>
           </div>
           <div class="span8">
@@ -123,23 +85,33 @@
               <div class="navigation">
                 <nav>
                   <ul class="nav topnav">
-                    <li class="dropdown active">
+                    <li class="<?php if($this->uri->segment('1')=="" || $this->uri->segment('1')=="Home" ){ echo "active";}?>">
+                      <a href="<?php echo base_url() ?>">Home</a>
+                    </li>
+                    <!-- <li class="dropdown active">
                       <a href="#" style="color: #000000">Home <i class="icon-angle-down"></i></a>
                       <ul class="dropdown-menu">
                         <li><a href="index-alt2.html">BEM KM-POLIJE</a></li>
                         <li><a href="index-alt3.html">Unit Kegiatan Mahasiswa</a></li>
                         <li><a href="index-alt3.html">Himpunan Mahasiswa Jurusan</a></li>
                       </ul>
+                    </li> -->
+                    <li class="dropdown">
+                      <a href="#">KM<i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="">Himpunan Mahasiswa Jurusan</a></li>
+                        <li><a href="">Unit Kegiatan Mahasiswa</a></li>
+                      </ul>
                     </li>
                     <li class="dropdown">
                       <a href="#">Kegiatan <i class="icon-angle-down"></i></a>
                       <ul class="dropdown-menu">
-                        <li class="dropdown"><a href="#">BEM<i class="icon-angle-right"></i></a>
-                          <ul class="dropdown-menu sub-menu-level1">
+                        <li class="dropdown"><a href="#">BEM</a>
+                          <!-- <ul class="dropdown-menu sub-menu-level1">
                             <li><a href="index.html">Internal POLIJE</a></li>
                             <li><a href="index-alt2.html">BEM SI</a></li>
                             <li><a href="#">FKMPI</a></li>
-                          </ul>
+                          </ul> -->
                         </li>
                         <li class="dropdown"><a href="#">HMJ<i class="icon-angle-right"></i></a>
                           <ul class="dropdown-menu sub-menu-level1">
@@ -175,7 +147,13 @@
                         </li>
                         </ul>
                     </li>
-                    <li><a href="typography.html">Info Beasiswa</a></li>
+                    <li class="dropdown">
+                      <a href="#">Info<i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="">Info Lomba</a></li>
+                        <li><a href="">Info Beasiswa</a></li>
+                      </ul>
+                    </li>
                   <li class="dropdown">
                       <a href="#">Forum Nasional<i class="icon-angle-down"></i></a>
                       <ul class="dropdown-menu">
@@ -183,8 +161,9 @@
                         <li><a href="">BEM SI</a></li>
                       </ul>
                     </li>
-                        <li><a href="table.html">Kalender Kegiatan</a></li>
-                        <li><a href="">Info Lomba</a></li>
+                        <li class="<?php if($this->uri->segment('1')=="Kalendar_kegiatan"){ echo "active";}?>">
+                          <a href="<?php echo base_url('Kalendar_kegiatan')?>">Kalender Kegiatan</a>
+                        </li>
                   </ul>
                 </nav>
               </div>

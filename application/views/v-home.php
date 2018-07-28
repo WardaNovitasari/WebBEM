@@ -74,13 +74,14 @@
     <section class="callaction">
       <div class="container">
         <div class="row">
-          <div class="span12">
+          <div class="span12" style="padding-bottom: 20px">
             <div class="big-cta">
-              <!-- <div class="cta-text">
-                <h3>We've created more than <span class="highlight"><strong>5000 websites</strong></span> this year!</h3>
-              </div> -->
-              <div class="cta floatright">
-                <a class="btn btn-large btn-theme btn-rounded" href="#">Get Started</a>
+              <div class="cta-text">
+                <div class="span2" style="right: 0px"><img src="<?php echo base_url() ?>master/img/khk.png" alt="" class="logo" "></div>
+                <div class="span6" style="margin-top: 25px"><h4>BADAN EKSEKUTIF MAHASISWA <span class="highlight"><strong>KABINET HARMONI KOLABORASI</strong></span> 2018</h4></div>
+              </div>
+              <div class="cta floatright" style="margin-bottom: 40px;">
+                <a class="btn btn-large btn-theme btn-rounded" href="#" style="margin-top: 30px">Selengkapnya</a>
               </div>
             </div>
           </div>
@@ -122,34 +123,6 @@
                   </div>
                 </div>
               </div>
-             <!--  <div class="span3">
-                <div class="box aligncenter">
-                  <div class="aligncenter icon">
-                    <i class="icon-beaker icon-circled icon-64 active"></i>
-                  </div>
-                  <div class="text">
-                    <h6>Coded carefully</h6>
-                    <p>
-                      Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
-                    </p>
-                    <a href="#">Learn more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="span3">
-                <div class="box aligncenter">
-                  <div class="aligncenter icon">
-                    <i class="icon-coffee icon-circled icon-64 active"></i>
-                  </div>
-                  <div class="text">
-                    <h6>Sit and enjoy</h6>
-                    <p>
-                      Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
-                    </p>
-                    <a href="#">Learn more</a>
-                  </div>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -164,7 +137,7 @@
         <!-- Portfolio Projects -->
         <div class="row">
           <div class="span12">
-            <h4 class="heading">Some of recent <strong>works</strong></h4>
+            <h4 class="heading"> Galeri <strong>Kegiatan</strong></h4>
             <div class="row">
               <section id="projects">
                 <ul id="thumbs" class="portfolio">
@@ -193,8 +166,6 @@
                   <!-- Item Project and Filter Name -->
                   <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
                     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="<?php echo base_url() ?>master/img/works/full/image-03-full.jpg">
-						
                 </ul>
               </section>
             </div>
