@@ -114,9 +114,11 @@
                   <div class="text">
                     <h6>Misi</h6>
                     <p>
-                      Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                     Optimalisasi sinergi BEM KM Polije bersama ormawa dan organisasi nasional <br>
+                     Membangun Sistem Kerja yang solid, Inspiratif, dan Profesional <br>
+                     Meningkatkan pelayanan mahasiswa yang aspiratif, tepat, cakap, dan solutif untuk mendorong kreatifitas dan prestasi mahasiswa
                     </p>
-                    <a href="#">Learn more</a>
+                    <!-- <a href="#">Learn more</a> -->
                   </div>
                 </div>
               </div>
