@@ -3,20 +3,7 @@
 <body>
   <div id="wrapper">
     <!-- toggle top area -->
-    <div class="hidden-top">
-      <div class="hidden-top-inner container">
-        <div class="row">
-          <div class="span12">
-            <ul>
-              <li><strong>We are available for any custom works this month</strong></li>
-              <li>Main office: Springville center X264, Park Ave S.01</li>
-              <li>Call us <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end toggle top area -->
+    
     <!-- start header -->
     
     <!-- end header -->
@@ -81,7 +68,7 @@
                 <div class="span6" style="margin-top: 25px"><h4>BADAN EKSEKUTIF MAHASISWA <span class="highlight"><strong>KABINET HARMONI KOLABORASI</strong></span> 2018</h4></div>
               </div>
               <div class="cta floatright" style="margin-bottom: 40px;">
-                <a class="btn btn-large btn-theme btn-rounded" href="#" style="margin-top: 30px">Selengkapnya</a>
+                <a class="btn btn-large btn-theme btn-rounded" href="<?php echo base_url('Kalendar_kegiatan')?>" style="margin-top: 30px">Selengkapnya</a>
               </div>
             </div>
           </div>

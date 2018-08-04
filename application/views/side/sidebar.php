@@ -5,9 +5,9 @@
           <a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
         </div>
         <!-- end toggle link -->
-        <div class="row nomargin">
-          <div class="span12">
-            <div class="headnav">
+        <div class="row nomargin"  >
+          <div class="span12" >
+            <div class="headnav" style="color: #2c3e50">
               <ul>
                 <!-- <li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li> -->
                 <li><a href="#mySignin" data-toggle="modal"><i class="icon-user"></i>Sign in</a></li>
@@ -173,3 +173,17 @@
         </div>
       </div>
     </header>
+    <div class="hidden-top">
+      <div class="hidden-top-inner container">
+        <div class="row">
+          <div class="span12">
+            <ul>
+              <li><strong>Hubungi Kami</strong></li>
+              <li>Apabila ada content yang kurang baik di website ini</li>
+              <li><i class="icon-phone"></i>082137480425</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end toggle top area -->

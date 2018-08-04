@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Kalendar_kegiatan extends CI_Controller {
+class HMJ extends CI_Controller {
 	public function index()
 	{
-		$this->load->view('v_kabinet');
+		$this->load->view('');
 	}
 }
